@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+
+            android:textSize="25sp"
+            android:textColor="@color/colorGreenTitle"
+            android:id="@+id/txtVtituloMostrar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/titulo_informacion_plantas" />
+
+        <TextView
+
+            android:id="@+id/textVespecieMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/columna_especie_plantas"
+            />
+
+        <EditText android:id="@+id/edTextEspecieMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="140dp"
+            android:textSize="15dp"
+            android:ems="10"
+            android:editable="false"
+            />
+
+        <TextView
+            android:id="@+id/txtVclasificadorMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+
+            android:text="@string/columna_clasificador_plantas"
+            android:textColor="@color/colorBlack"
+
+            />
+
+        <EditText
+            android:id="@+id/edTextClasificadorMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="240dp"
+            android:textSize="15dp"
+            android:ems="10"
+            android:editable="false"/>
+
+        <TextView android:id="@+id/txtVtipoMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="350dp"
+            android:text="@string/columna_tipo_plantas"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText android:id="@+id/edTextTipoMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="340dp"
+            android:textSize="15dp"
+            android:editable="false"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtVdistritoMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="450dp"
+            android:text="@string/columna_distrito_plantas"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/edTextDistritoMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="440dp"
+            android:textSize="15dp"
+            android:editable="false"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtVusosMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/columna_usos_plantas" />
+
+        <EditText
+            android:id="@+id/edTextUsosMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="540dp"
+            android:textSize="15dp"
+            android:editable="false"
+            android:ems="10" />
+
+    </RelativeLayout>
+</ScrollView>

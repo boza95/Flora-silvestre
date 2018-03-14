@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:padding="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:textSize="25sp"
+            android:textColor="@color/colorGreenTitle"
+            android:id="@+id/txtVtituloMostrar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/titulo_informacion_plantas" />
+
+        <TextView
+
+            android:id="@+id/textVproductorMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/columna_productor_plantas"
+            />
+
+        <EditText android:id="@+id/edTextProductorMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="140dp"
+            android:textSize="15dp"
+            android:editable="false"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txtVcoordGeoMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/columna_coordenadas_geograficas_plantas"
+            android:textColor="@color/colorBlack"
+
+            />
+
+        <EditText
+            android:id="@+id/edTextCGlatitudMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:editable="false"
+            android:hint="@string/columna_coordenadas_geograficas_plantas_latitud"
+            android:textColorHint="@color/colorGreen"
+            android:textSize="15dp" />
+
+        <EditText android:id="@+id/edTextCGlongitudMs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="300dp"
+            android:textSize="15dp"
+            android:hint="@string/columna_coordenadas_geograficas_plantas_longitud"
+            android:editable="false"
+            android:textColorHint="@color/colorGreen"
+            android:ems="10"/>
+
+
+
+        <TextView
+            android:id="@+id/txtVdistritoMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="400dp"
+            android:text="@string/columna_genoma_plantas"
+            android:textColor="@color/colorBlack"/>
+
+        <ImageView
+            android:id="@+id/imgVgenomaMs"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="100dp"
+
+            android:src="@drawable/nodisponible"
+            />
+
+        <TextView
+            android:id="@+id/txtVmetabolomaMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="570dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/columna_metaboloma_plantas" />
+
+        <ImageView
+            android:id="@+id/imgVmetabolomaMs"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="100dp"
+
+            android:src="@drawable/nodisponible"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>

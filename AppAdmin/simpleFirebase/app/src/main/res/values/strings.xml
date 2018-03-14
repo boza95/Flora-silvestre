@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PHM Admin</string>
+
+    <string name="titulo_progress_dialog_1"> Comprobando conexion con el servidor. </string>
+    <string name="mensaje_progress_dialog_1"> Por favor espere unos segundos... </string>
+    <string name="mensaje_progress_dialog_2"> Copiando Registros... </string>
+    <string name="mensaje_toast_1_exito"> Conexión exitosa con el servidor. </string>
+    <string name="mensaje_toast_2_exito"> Registros copiados correctamente. </string>
+    <string name="mensaje_toast_1_error"> Error no se pudo establecer la conexión con el servidor. </string>
+    <string name="titulo_splash_screen"> Proyecto Huertos Mixtos (PHM) </string>
+
+    <string name="mensaje_toast_agregar_plantas"> Registro de Plantas. </string>
+    <string name="mensaje_toast_modificar_plantas"> Modificacion de Plantas. </string>
+    <string name="mensaje_toast_eliminar_plantas"> Planta eliminada correctamente. </string>
+
+    <string name="mensaje_toast_agregar_plantas_exito"> Informacion guardada correctamente. </string>
+    <string name="mensaje_toast_agregar_plantas_error"> Error: Existen campos vacios. </string>
+
+    <string name="mensaje_toast_modificar_plantas_exito"> Informacion modificada correctamente. </string>
+    <string name="mensaje_toast_modificar_plantas_error"> Error: Existen campos vacios. </string>
+
+    <string name="titulo_registrar_plantas">Registro de Plantas</string>
+    <string name="titulo_modificar_plantas">Modificación de Plantas</string>
+    <string name="titulo_informacion_plantas">Información de la Planta</string>
+
+    <string name="btn_guardar_plantas">Guardar Planta </string>
+    <string name="btn_modificar_plantas"> Modificar Planta </string>
+
+    <string name="columna_id_plantas">Id :</string>
+    <string name="columna_nombre_cientifico_plantas">Nombre Científico :</string>
+    <string name="columna_nombre_comun_plantas">Nombre Común :</string>
+    <string name="columna_familia_plantas">Familia :</string>
+    <string name="columna_genero_plantas">Género :</string>
+    <string name="columna_especie_plantas">Especie :</string>
+    <string name="columna_clasificador_plantas">Clasificador :</string>
+    <string name="columna_tipo_plantas">Tipo :</string>
+    <string name="columna_distrito_plantas">Distrito :</string>
+    <string name="columna_usos_plantas">Usos :</string>
+    <string name="columna_productor_plantas">Productor :</string>
+    <string name="columna_coordenadas_geograficas_plantas">Coord.Geog. :</string>
+    <string name="columna_coordenadas_geograficas_plantas_latitud">Latitud</string>
+    <string name="columna_coordenadas_geograficas_plantas_longitud">Longitud</string>
+    <string name="columna_genoma_plantas">Genoma :</string>
+    <string name="columna_metaboloma_plantas">Metaboloma :</string>
+
+</resources>
